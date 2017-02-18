@@ -33,6 +33,10 @@
   /* note the padding around a left floated image */
 }
 
+body{
+  background-color: orange;
+
+}
 
 #slide1 {
   background-image: url('../images/Halo 1.png');
@@ -65,6 +69,10 @@
   width: 683px;
   height: 384px;
   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+
 
 }
 
@@ -98,8 +106,21 @@
   left: 20px;
 }
 
+.macbook{
+  position: absolute;
+  height: inherit;  
 
-@media (max-device-width: 1024px) {
+
+
+}
+ .macbook img{
+  height: inherit;
+
+
+ }
+
+
+/*@media (max-device-width: 1024px) {
   .arrow {
     width: 20%;
   }
@@ -108,5 +129,5 @@
 @media (max-width: 768px) {
   .arrow {
     width: 10%;
-  }
+  }*/
 }
