@@ -83,9 +83,9 @@ body{
 
 
 .box{
-	background-color: red
-	height:30px;
-	width: 30px;
+  background-color: red
+  height:30px;
+  width: 30px;
 }
 
 .arrow {
@@ -123,7 +123,6 @@ body{
     width: 20%;
   }
 }
-
 @media (max-width: 768px) {
   .arrow {
     width: 10%;
