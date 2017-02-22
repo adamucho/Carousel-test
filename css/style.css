@@ -58,10 +58,7 @@ body{
   background-image: url('../images/Halo 5.png');
 }
 
-.slide-image {
-  width: 683px;
-  height: 384px;
-}
+
 
 #carousel {
   overflow: hidden;
@@ -72,8 +69,6 @@ body{
   left: 50%;
   transform: translateX(-50%);
 
-
-
 }
 
 .slide-image {
@@ -83,6 +78,9 @@ body{
   background-size: cover;
   display: inline-block;
 }
+
+
+
 
 .box{
 	background-color: red
